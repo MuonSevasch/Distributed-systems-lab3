@@ -25,7 +25,7 @@ public class App {
 
 
 
-
+        Map<Integer, Airport> airportMap = airports.collectAsMap();
 
         flights.mapToPair(f -> new Tuple2<Tuple2<Integer, Integer>, Float>(f._1, f._2.getDelayTime()))
                 .reduceByKey(Math::max)
