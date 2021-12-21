@@ -34,7 +34,7 @@ public class Parser {
                        });
 
 
-
+    private static JavaPairRDD<Tuple2<Integer, Integer>, Flight> _parseFlightsPairRDD(JavaRDD<Flight> flights){
 
     }
 
