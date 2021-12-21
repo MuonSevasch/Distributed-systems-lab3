@@ -16,7 +16,7 @@ public class App {
 
 
         this.conf = conf;
-
+    }
 
     public void run(){
         JavaSparkContext sc = new JavaSparkContext(conf);
