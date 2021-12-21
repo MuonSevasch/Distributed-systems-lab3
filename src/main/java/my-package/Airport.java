@@ -15,7 +15,7 @@ public class Airport implements Serializable {
 
     }
 
-
+    public int getId() {
 
     }
 
