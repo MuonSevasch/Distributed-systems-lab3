@@ -25,5 +25,5 @@ public class Airport implements Serializable {
                 "id=" + id +
                 ", name='" + name + '\'' +
                 '}';
-
+    }
 }
