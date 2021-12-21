@@ -19,7 +19,7 @@ public class Flight {
 
     public float getDelayTime() {
         return delayTime;
-
+    }
 
     public int getAirportId() {
 
