@@ -29,7 +29,7 @@ public class Parser {
 
                        .mapToPair(str -> {
                            int id = Integer.parseInt(str[AIRPORT_ID]);
-
+                           String name = str[AIRPORT_NAME];
                            return new Tuple2<>(id, new Airport(id, name));
                        });
     }
