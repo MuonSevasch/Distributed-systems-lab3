@@ -5,7 +5,7 @@ import org.apache.spark.api.java.JavaRDD;
 import scala.Tuple2;
 
 public class Parser {
-
+    private static final String DELIMITER = ",";
 
     private static final int IS_CANCELLED = 19;
 
