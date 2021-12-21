@@ -32,7 +32,7 @@ public class App {
                 .map(data -> new Tuple2<>(new Tuple2<>(broadcast.value().get(data._1._1),
                                                        broadcast.value().get(data._1._1)),
                                            data._2))
-
+                .saveAsTextFile(OUTPUT_FILEPATH);
 
     }
 }
