@@ -39,7 +39,7 @@ public class Parser {
     }
 
 
-
+        JavaRDD<Flight> a = Parser.parseFlightsRDD(flights);
         return Parser._parseFlightsPairRDD(a);
 
     }
