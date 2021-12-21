@@ -18,7 +18,7 @@ public class Parser {
 
 
     public static JavaRDD<Flight> parseFlightsRDD(JavaRDD<String> flights){
-
+        return flights.map(str -> str.split(DELIMITER))
                       .map(str -> new Flight(str[IS_CANCELLED].equals(CANCELLED_FLAG),
                                              Float.parseFloat(str[DELAY_TIME]),
 
