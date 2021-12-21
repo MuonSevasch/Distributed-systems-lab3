@@ -33,7 +33,7 @@ public class Flight {
     public String toString() {
         return "Flight{" +
                 "isCancelled=" + isCancelled +
-
+                ", delayTime=" + delayTime +
                 ", airportId=" + airportId +
                 ", destId=" + destId +
                 '}';
