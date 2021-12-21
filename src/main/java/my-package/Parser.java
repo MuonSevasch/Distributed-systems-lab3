@@ -12,7 +12,7 @@ public class Parser {
     private static final int AIRPORT_ID = 14;
 
 
-
+    private static final int AIRPORT_NAME = 1;
 
 
 
