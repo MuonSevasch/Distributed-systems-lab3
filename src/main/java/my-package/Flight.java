@@ -29,7 +29,7 @@ public class Flight {
         return destId;
     }
 
-
+    @Override
     public String toString() {
         return "Flight{" +
                 "isCancelled=" + isCancelled +
