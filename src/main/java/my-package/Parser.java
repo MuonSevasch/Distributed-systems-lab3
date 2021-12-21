@@ -26,7 +26,7 @@ public class Parser {
     }
 
     public static JavaPairRDD<Integer, Airport> parseAirports(JavaRDD<String> airports){
-
+        return airports.map(str -> str.split(DELIMITER))
                        .mapToPair(str -> {
                            int id = Integer.parseInt(str[AIRPORT_ID]);
                            String name = str[AIRPORT_NAME];
