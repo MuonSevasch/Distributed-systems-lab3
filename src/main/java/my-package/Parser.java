@@ -1,4 +1,4 @@
-
+package ru.bmstu.lab3;
 
 
 
