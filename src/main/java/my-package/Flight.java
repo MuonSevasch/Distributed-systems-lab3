@@ -13,7 +13,7 @@ public class Flight {
 
 
 
-
+    public boolean isCancelled() {
 
 
 
