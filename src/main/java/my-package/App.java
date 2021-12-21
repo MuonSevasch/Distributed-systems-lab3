@@ -15,7 +15,7 @@ public class App {
 
 
 
-
+        this.conf = conf;
 
 
 
