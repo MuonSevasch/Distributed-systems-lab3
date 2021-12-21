@@ -17,7 +17,7 @@ public class Parser {
 
 
 
-
+    public static JavaRDD<Flight> parseFlightsRDD(JavaRDD<String> flights){
 
 
 
