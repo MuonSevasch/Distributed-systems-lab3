@@ -27,7 +27,7 @@ public class Flight {
 
     public int getDestId() {
         return destId;
-    }
+
 
     @Override
     public String toString() {
