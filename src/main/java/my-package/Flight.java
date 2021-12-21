@@ -10,7 +10,7 @@ public class Flight {
         this.isCancelled = isCancelled;
         this.delayTime = delayTime;
 
-
+        this.destId = destId;
     }
 
     public boolean isCancelled() {
