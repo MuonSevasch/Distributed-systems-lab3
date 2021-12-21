@@ -3,7 +3,7 @@ package ru.bmstu.lab3;
 public class Flight {
     private final boolean isCancelled;
     private final float delayTime;
-
+    private final int airportId;
 
 
     public Flight(boolean isCancelled, float delayTime, int airportId, int destId) {
