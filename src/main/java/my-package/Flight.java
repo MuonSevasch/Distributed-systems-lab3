@@ -22,7 +22,7 @@ public class Flight {
     }
 
     public int getAirportId() {
-        return airportId;
+
     }
 
     public int getDestId() {
