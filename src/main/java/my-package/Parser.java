@@ -42,5 +42,5 @@ public class Parser {
 
         return Parser._parseFlightsPairRDD(a);
 
-
+    }
 }
