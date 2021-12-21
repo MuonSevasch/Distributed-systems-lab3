@@ -7,7 +7,7 @@ package ru.bmstu.lab3;
 public class Parser {
 
 
-
+    private static final int IS_CANCELLED = 19;
 
     private static final int AIRPORT_ID = 14;
 
