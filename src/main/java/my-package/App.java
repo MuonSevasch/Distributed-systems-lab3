@@ -21,7 +21,7 @@ public class App {
 
         JavaSparkContext sc = new JavaSparkContext(conf);
 
-
+        JavaPairRDD<Tuple2<Integer, Integer>, Flight> flights = Parser.parseFlightsPairRDD(sc.textFile(FLIGHTS_DATA_FILENAME));
 
 
 
