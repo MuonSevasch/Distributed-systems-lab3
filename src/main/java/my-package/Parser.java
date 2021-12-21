@@ -8,7 +8,7 @@ public class Parser {
     private static final String DELIMITER = ",";
 
     private static final int IS_CANCELLED = 19;
-
+    private static final int DELAY_TIME = 18;
     private static final int AIRPORT_ID = 14;
 
     private static final int ORIGIN_AIRPORT_ID = 11;
