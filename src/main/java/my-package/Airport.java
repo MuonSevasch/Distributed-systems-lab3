@@ -12,7 +12,7 @@ public class Airport implements Serializable {
     }
 
     public String getName() {
-
+        return name;
     }
 
     public int getId() {
