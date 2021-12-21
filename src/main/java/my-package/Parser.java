@@ -14,7 +14,7 @@ public class Parser {
     private static final int ORIGIN_AIRPORT_ID = 11;
     private static final int AIRPORT_NAME = 1;
 
-
+    private static final String CANCELLED_FLAG = "1.00";
 
 
     public static JavaRDD<Flight> parseFlightsRDD(JavaRDD<String> flights){
