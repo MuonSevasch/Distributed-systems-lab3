@@ -4,7 +4,7 @@ public class Flight {
     private final boolean isCancelled;
     private final float delayTime;
     private final int airportId;
-
+    private final int destId;
 
     public Flight(boolean isCancelled, float delayTime, int airportId, int destId) {
         this.isCancelled = isCancelled;
