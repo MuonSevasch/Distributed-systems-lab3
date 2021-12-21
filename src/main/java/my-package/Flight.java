@@ -34,7 +34,7 @@ public class Flight {
         return "Flight{" +
                 "isCancelled=" + isCancelled +
                 ", delayTime=" + delayTime +
-
+                ", airportId=" + airportId +
 
                 '}';
 
