@@ -17,7 +17,7 @@ public class Flight {
 
 
 
-
+    public float getDelayTime() {
 
 
 
