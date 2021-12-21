@@ -20,7 +20,7 @@ public class Parser {
     public static JavaRDD<Flight> parseFlightsRDD(JavaRDD<String> flights){
 
 
-
+                                             Float.parseFloat(str[DELAY_TIME]),
 
 
     }
