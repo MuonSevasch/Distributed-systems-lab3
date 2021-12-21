@@ -23,7 +23,7 @@ public class Parser {
 
 
 
-
+    }
 
     public static JavaPairRDD<Integer, Airport> parseAirports(JavaRDD<String> airports){
 
