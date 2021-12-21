@@ -7,7 +7,7 @@ public class Flight {
 
 
 
-
+        this.isCancelled = isCancelled;
 
 
 
