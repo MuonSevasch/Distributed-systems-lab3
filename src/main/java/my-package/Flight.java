@@ -35,7 +35,7 @@ public class Flight {
                 "isCancelled=" + isCancelled +
                 ", delayTime=" + delayTime +
                 ", airportId=" + airportId +
-
+                ", destId=" + destId +
                 '}';
 
 }
