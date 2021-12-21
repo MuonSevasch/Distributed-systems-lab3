@@ -11,7 +11,7 @@ public class Flight {
         this.delayTime = delayTime;
 
 
-
+    }
 
     public boolean isCancelled() {
 
