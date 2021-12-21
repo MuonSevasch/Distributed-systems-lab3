@@ -34,5 +34,5 @@ public class App {
                                            data._2))
                 .saveAsTextFile(OUTPUT_FILEPATH);
 
-    }
+
 }
