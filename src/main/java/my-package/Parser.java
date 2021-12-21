@@ -28,7 +28,7 @@ public class Parser {
     public static JavaPairRDD<Integer, Airport> parseAirports(JavaRDD<String> airports){
 
                        .mapToPair(str -> {
-
+                           int id = Integer.parseInt(str[AIRPORT_ID]);
 
                            return new Tuple2<>(id, new Airport(id, name));
                        });
