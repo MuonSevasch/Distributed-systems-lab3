@@ -25,7 +25,7 @@ public class Flight {
         return airportId;
     }
 
-
+    public int getDestId() {
         return destId;
     }
 
