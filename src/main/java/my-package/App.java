@@ -26,7 +26,7 @@ public class App {
 
 
         Map<Integer, Airport> airportMap = airports.collectAsMap();
-
+        final Broadcast<Map<Integer, Airport>> broadcast = sc.broadcast(airportMap);
         flights.mapToPair(f -> new Tuple2<Tuple2<Integer, Integer>, Float>(f._1, f._2.getDelayTime()))
                 .reduceByKey(Math::max)
                 .map(data -> new Tuple2<>(new Tuple2<>(broadcast.value().get(data._1._1),
