@@ -32,7 +32,7 @@ public class Parser {
 
                            return new Tuple2<>(id, new Airport(id, name));
                        });
-
+    }
 
     private static JavaPairRDD<Tuple2<Integer, Integer>, Flight> _parseFlightsPairRDD(JavaRDD<Flight> flights){
 
